@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+body{
+    background:url("https://source.unsplash.com/1600x900/?landscape");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    }
+    .matrix{
+        width: 450px;
+        background: transparent;
+        border: solid 2px #515151;
+        backdrop-filter: blur(20px);
+        border-radius: 20px;
+        padding: 20px 40px;
+    }
+    h1{
+        text-align: center;
+        font-size: 36px;
+        color: #fff;
+    }
+    .email{
+        position: relative;
+        width: 100%;
+        height: 50px;
+        margin: 30px 0px;
+    }
+    .email input{
+        width: 100%;
+        height: 100%;
+        border: none;
+        background: transparent;
+        outline: none;
+        border: 2px solid #fff;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 16px;
+        padding: 20px 40px 20px 20px;
+    }
+    .email input::placeholder{
+        color: #fff;
+
+    }
+    .email img{
+        position: absolute;
+        right: 24px;
+        top:8%;
+        margin-top: 5px;
+        color: #fff;
+    }
+    .senha a{
+        font-size: 16px;
+        color: #fff;
+        text-decoration: none;
+        transition: 1s;
+    }
+    .senha a:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .senha input{
+        width: 100%;
+        height: 100%;
+        border: none;
+        background: transparent;
+        outline: none;
+        border: 2px solid #fff;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 16px;
+        padding: 20px 40px 20px 20px;
+        margin: 10px 0;
+    }
+    .senha input::placeholder{
+        color: #fff;
+
+    }
+    .senha img{
+        position: absolute;
+        right: 65px;
+        top:8%;
+        margin-top: 161px;
+        color: #fff;
+    }
+    .btn{
+        width: 100%;
+        height: 50px;
+        background-color: #5100b5;
+        border-radius: 10px;
+        font-weight: 700;
+        margin-top: 10px;
+        cursor: pointer;
+        outline: none;
+        font-size: 16px;
+        color: #fff;
+        transition: 1s;
+    }
+    .btn:hover{
+        background:#7e21ef;
+    }
+    .cadastrar{
+        width: 100%;
+        text-align: center;
+        margin: 20px 0;
+        color: #fff;
+        font-size: 19px;
+        font-weight: 300;
+        
+
+    }
+    .cadastrar a{
+        text-decoration:none;
+        font-weight: 700;
+        color: #fff;
+        font-size: 20px;
+        transition: 1s;
+    }
+    .cadastrar a:hover{
+        color: rgb(62, 232, 62);
+        text-decoration: underline;
+    }
